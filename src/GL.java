@@ -9,6 +9,6 @@ public class GL {
 		this.driver = driver;
 	}
 
-	public MainScreen gospelLivingScreen() { return new MainScreen(driver); }
+	public MainScreen mainScreen() { return new MainScreen(driver); }
 
 }

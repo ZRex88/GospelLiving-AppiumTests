@@ -23,6 +23,7 @@ public abstract class AppiumDriverBuilder<SELF, DRIVER extends AppiumDriver> {
 			capabilities.setCapability("app", "/Users/elderhuffman/Documents/GospelLiving.app");
 			capabilities.setCapability("deviceName", "iPhone 8 Plus");
 			capabilities.setCapability("automationName", "XCUItest");
+			capabilities.setCapability("autoAcceptAlerts", "true");
 
 			return new IOSDriver(capabilities);
 
