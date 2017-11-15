@@ -2,6 +2,7 @@ package screen;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.TouchAction;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
@@ -14,10 +15,14 @@ public abstract class AbstractScreen {
 
 	protected final AppiumDriver driver;
 
+
+
 	public AbstractScreen(AppiumDriver driver) {
 		this.driver = driver;
 
 		PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+
+
 	}
 
 	public MobileElement findElementWithTimeout(By by, int timeOutInSeconds) {
@@ -27,5 +32,7 @@ public abstract class AbstractScreen {
 	protected void takeScreenShot(){
 		driver.getScreenshotAs(OutputType.BASE64);
 	}
+
+
 
 }

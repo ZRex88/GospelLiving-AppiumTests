@@ -16,6 +16,8 @@ public abstract class AbstractTest {
 		this.driver = AppiumDriverBuilder.forIOS().build();
 
 		app = new GL(driver);
+
+		driver.switchTo().alert().accept();
 	}
 
 	@After

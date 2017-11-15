@@ -7,8 +7,9 @@ public class InstallationAndUpdates extends AbstractTest {
 	@Test
 	public void FreshInstall() throws InterruptedException{
 		//Verify app opens
-		Thread.sleep(3000);
-		Assert.assertTrue(app.mainScreen().IsHomeDisplayed());
+
+
+		Assert.assertTrue(app.mainScreen().IsSpiritualCardDisplayed());
 	}
 
 	@Test
