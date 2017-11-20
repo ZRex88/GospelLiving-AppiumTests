@@ -6,21 +6,10 @@ public class InstallationAndUpdates extends AbstractTest {
 
 	@Test
 	public void FreshInstall() throws InterruptedException{
-		//Verify app opens
-
-
-		Assert.assertTrue(app.mainScreen().IsSpiritualCardDisplayed());
-	}
-
-	@Test
-	public void FreshInstallAndLaunchWithCellularConnection() throws InterruptedException{
-		//Not sure I can automate this with simulator
-		//Verify app opens
-	}
-
-	@Test
-	public void FreshInstallAndLaunchWithOutNetworkConnection() throws InterruptedException{
-		//Disable network connection
-		//Verify app opens
+		//Verify app is open by finding the 4 goal cards
+		Assert.assertTrue(app.homeScreen().IsGivenGoalCardDisplayed("spiritual"));
+		Assert.assertTrue(app.homeScreen().IsGivenGoalCardDisplayed("social"));
+		Assert.assertTrue(app.homeScreen().IsGivenGoalCardDisplayed("physical"));
+		Assert.assertTrue(app.homeScreen().IsGivenGoalCardDisplayed("intellectual"));
 	}
 }

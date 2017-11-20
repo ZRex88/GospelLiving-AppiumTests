@@ -1,5 +1,6 @@
 import io.appium.java_client.AppiumDriver;
-import screen.MainScreen;
+import io.appium.java_client.Setting;
+import screen.*;
 
 public class GL {
 
@@ -9,6 +10,14 @@ public class GL {
 		this.driver = driver;
 	}
 
-	public MainScreen mainScreen() { return new MainScreen(driver); }
+	public NavBar navBar() { return new NavBar(driver); }
+
+	public HomeScreen homeScreen() { return new HomeScreen(driver); }
+
+	public GoalsScreen goalsScreen() { return new GoalsScreen(driver); }
+
+	public ImpressionsScreen impressionsScreen() { return new ImpressionsScreen(driver); }
+
+	public SettingsScreen settingsScreen() { return new SettingsScreen(driver); }
 
 }
