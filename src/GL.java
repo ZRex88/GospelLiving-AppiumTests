@@ -18,6 +18,8 @@ public class GL {
 
 	public ImpressionsScreen impressionsScreen() { return new ImpressionsScreen(driver); }
 
+	public EditImpressionScreen editImpressionsScreen() { return new EditImpressionScreen(driver);}
+
 	public SettingsScreen settingsScreen() { return new SettingsScreen(driver); }
 
 }

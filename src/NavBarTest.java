@@ -1,5 +1,4 @@
 import org.junit.*;
-import screen.NavBar;
 
 public class NavBarTest extends AbstractTest {
 

@@ -1,7 +1,9 @@
 package screen;
 
-import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.WebElement;
+import com.gargoylesoftware.htmlunit.javascript.host.Touch;
+import io.appium.java_client.*;
+import org.openqa.selenium.*;
+import java.util.List;
 
 public class ImpressionsScreen extends AbstractScreen {
 
@@ -39,7 +41,12 @@ public class ImpressionsScreen extends AbstractScreen {
 		return CompleteTab.isDisplayed();
 	}
 
-	public void ClickCreateImpression(){
+	public boolean GivenImpressionExists(String text){
+		return driver.findElementByAccessibilityId(text).isDisplayed();
+	}
+
+	public void TapCreateImpression(){
 		btnCreateImpression.click();
 	}
+
 }

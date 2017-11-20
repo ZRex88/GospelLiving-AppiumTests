@@ -15,9 +15,6 @@ public class HomeScreen extends AbstractScreen {
 
 
 	//Methods
-
-	TouchAction tapCoordinates = new TouchAction(driver);
-
 	public void SelectGivenGoalCard(String goal){
 		driver.findElementByAccessibilityId(goal + " - 0 goals").click();
 	}
