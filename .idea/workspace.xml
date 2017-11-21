@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebf2ff8-3b99-49b3-9e5e-f7a8fd25fc6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/ImpressionsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/NavBarTest.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/NavBarTest.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/HomeScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/HomeScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GL.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GL.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/ImpressionsTest.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/ImpressionsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditImpressionScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditImpressionScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/ImpressionsScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/ImpressionsScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GL.java" afterPath="$PROJECT_DIR$/src/GL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/NavBarTest.java" afterPath="$PROJECT_DIR$/src/NavBarTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/HomeScreen.java" afterPath="$PROJECT_DIR$/src/screen/HomeScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImpressionsTest.java" afterPath="$PROJECT_DIR$/src/ImpressionsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" afterPath="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/ImpressionsScreen.java" afterPath="$PROJECT_DIR$/src/screen/ImpressionsScreen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,20 +24,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.50151056">
+    <splitter split-orientation="horizontal" split-proportion="0.55459595">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="ImpressionsScreen.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/screen/ImpressionsScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="229">
-                  <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+                <state relative-caret-position="589">
+                  <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1095#1096#0" expanded="true" />
-                    <element signature="e#1164#1165#0" expanded="true" />
-                    <element signature="e#1201#1202#0" expanded="true" />
-                    <element signature="e#1235#1236#0" expanded="true" />
+                    <element signature="e#1229#1230#0" expanded="true" />
+                    <element signature="e#1291#1292#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="GL.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/GL.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="555">
+                  <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -47,12 +56,10 @@
           <file leaf-file-name="EditImpressionScreen.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/screen/EditImpressionScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+                <state relative-caret-position="405">
+                  <caret line="64" column="152" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="152" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#1116#1117#0" expanded="true" />
-                    <element signature="e#1138#1139#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -65,8 +72,8 @@
           <file leaf-file-name="ImpressionsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/ImpressionsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="432">
-                  <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+                <state relative-caret-position="394">
+                  <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -126,18 +133,18 @@
         <option value="$PROJECT_DIR$/src/NavBarTest.java" />
         <option value="$PROJECT_DIR$/src/utility/AppiumDriverBuilder.java" />
         <option value="$PROJECT_DIR$/src/screen/HomeScreen.java" />
-        <option value="$PROJECT_DIR$/src/GL.java" />
         <option value="$PROJECT_DIR$/src/screen/ImpressionsScreen.java" />
+        <option value="$PROJECT_DIR$/src/GL.java" />
         <option value="$PROJECT_DIR$/src/ImpressionsTest.java" />
         <option value="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="22" />
-    <option name="width" value="1920" />
-    <option name="height" value="1015" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1695" />
+    <option name="y" value="34" />
+    <option name="width" value="1865" />
+    <option name="height" value="1033" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -157,7 +164,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,8 +196,6 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,60 +429,60 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ImpressionsTest_AddImpression - 2017.11.20 at 14h 32m 02s.xml">
-      <configuration name="ImpressionsTest.AddImpression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ImpressionsTest_AddImpression - 2017.11.20 at 14h 40m 19s.xml">
-      <configuration name="ImpressionsTest.AddImpression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ImpressionsTest_AddImpression - 2017.11.20 at 14h 43m 36s.xml">
-      <configuration name="ImpressionsTest.AddImpression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ImpressionsTest_AddImpression - 2017.11.20 at 14h 45m 08s.xml">
-      <configuration name="ImpressionsTest.AddImpression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ImpressionsTest_AddImpression - 2017.11.20 at 14h 50m 40s.xml">
-      <configuration name="ImpressionsTest.AddImpression" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.20 at 15h 35m 26s.xml">
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 14h 34m 22s.xml">
       <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.20 at 15h 40m 23s.xml">
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 14h 37m 07s.xml">
       <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.20 at 15h 45m 42s.xml">
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 14h 38m 59s.xml">
       <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.20 at 15h 46m 28s.xml">
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 14h 51m 28s.xml">
       <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.20 at 15h 48m 23s.xml">
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 04m 09s.xml">
+      <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 07m 33s.xml">
+      <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 40m 59s.xml">
+      <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 48m 57s.xml">
+      <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 51m 09s.xml">
+      <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ImpressionsTest_AddImpressionWithReminder - 2017.11.21 at 15h 59m 04s.xml">
       <configuration name="ImpressionsTest.AddImpressionWithReminder" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="22" width="1920" height="1015" extended-state="0" />
+    <frame x="1680" y="22" width="1920" height="1015" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32953367" sideWeight="0.49307775" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.4888179" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3368984" sideWeight="0.50208336" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21258135" sideWeight="0.55910546" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5111821" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21258135" sideWeight="0.44089457" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29826465" sideWeight="0.43876463" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.118743345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1368477" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21258135" sideWeight="0.55910546" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29826465" sideWeight="0.56123537" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -495,11 +502,41 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="21" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/screen/EditImpressionScreen.java</url>
+          <line>50</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/screen/ImpressionsScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/EditImpressionScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NavBarTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -514,10 +551,8 @@
           <caret line="45" column="0" lean-forward="true" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -538,6 +573,8 @@
           <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -547,7 +584,6 @@
         <state relative-caret-position="225">
           <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#762#763#0" expanded="false" />
             <element signature="e#805#806#0" expanded="false" />
           </folding>
@@ -560,10 +596,8 @@
           <caret line="27" column="42" lean-forward="false" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -572,17 +606,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="50" lean-forward="false" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -601,7 +625,6 @@
         <state relative-caret-position="225">
           <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
             <element signature="e#762#763#0" expanded="false" />
             <element signature="e#805#806#0" expanded="false" />
           </folding>
@@ -614,10 +637,8 @@
           <caret line="27" column="42" lean-forward="true" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -626,17 +647,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="50" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#431#432#0" expanded="false" />
-            <element signature="e#468#469#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-            <element signature="e#522#523#0" expanded="false" />
-            <element signature="e#558#559#0" expanded="false" />
-            <element signature="e#593#594#0" expanded="false" />
-            <element signature="e#621#622#0" expanded="false" />
-            <element signature="e#643#644#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -646,6 +657,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -664,6 +677,8 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#426#427#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -777,9 +792,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="145" column="0" lean-forward="false" selection-start-line="145" selection-start-column="0" selection-end-line="145" selection-end-column="0" />
-          <folding>
-            <element signature="e#6412#6413#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,7 +807,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -803,7 +814,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
           <caret line="156" column="0" lean-forward="false" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -811,25 +821,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/../Appium-LDSTools-Master/ExternalJars/selenium-server-standalone-2.46.0.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="98" lean-forward="false" selection-start-line="20" selection-start-column="98" selection-end-line="20" selection-end-column="98" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -841,36 +832,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/ImpressionsScreen.java">
+    <entry file="file://$PROJECT_DIR$/src/GL.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="555">
+          <caret line="39" column="72" lean-forward="false" selection-start-line="39" selection-start-column="72" selection-end-line="39" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1095#1096#0" expanded="true" />
-            <element signature="e#1164#1165#0" expanded="true" />
-            <element signature="e#1201#1202#0" expanded="true" />
-            <element signature="e#1235#1236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/ImpressionsScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1229#1230#0" expanded="true" />
+            <element signature="e#1291#1292#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Appium-LDSTools-Master/ExternalJars/selenium-server-standalone-2.46.0.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImpressionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screen/EditImpressionScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="43" column="42" lean-forward="false" selection-start-line="43" selection-start-column="42" selection-end-line="43" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1116#1117#0" expanded="true" />
-            <element signature="e#1138#1139#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImpressionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="50" column="24" lean-forward="true" selection-start-line="50" selection-start-column="24" selection-end-line="50" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="64" column="152" lean-forward="true" selection-start-line="64" selection-start-column="37" selection-end-line="64" selection-end-column="152" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

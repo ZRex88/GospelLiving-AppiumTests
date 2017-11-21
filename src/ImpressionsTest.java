@@ -1,3 +1,4 @@
+import io.appium.java_client.TouchAction;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -30,42 +31,48 @@ public class ImpressionsTest extends AbstractTest {
 	}
 
 	//I don't think it's possible to automate this. I'll return to it later -ZCH
-//	@Test
-//	public void AddImpressionWithReminder() throws InterruptedException{
-//		String ImpressionName = "Test1";
-//
-//		//Tap Add Impression button
-//		app.impressionsScreen().TapCreateImpression();
-//
-//		//Enter impression text
-//		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
-//
-//		//Set Reminder to true
-//		app.editImpressionsScreen().ToggleReminder();
-//
-//		//Set reminder to 3 minutes from now
-//		app.editImpressionsScreen().SetPickerMenu();
-//
-//		//Tap save
-//		app.editImpressionsScreen().ClickSave();
-//
-//		//Wait 3 minutes
-//		Thread.sleep(540_000_000);
-//
-//		//Verify reminder
-//
-//		//Dismiss Reminder
-//
-//		//Verify impression was added to Impressions page
-//	}
+	@Test
+	public void AddImpressionWithReminder() throws InterruptedException{
+		String ImpressionName = "Test1";
+
+		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
+
+		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
+
+		//Set Reminder to true
+		app.editImpressionsScreen().ToggleReminder();
+
+		//Set reminder to 3 minutes from now
+		app.editImpressionsScreen().SetPickerMenuMinutes(3);
+
+		//Tap save
+		app.editImpressionsScreen().ClickSave();
+
+		//Wait 3 minutes
+		app.TapScreenToKeepAwake(180_000);
+
+
+		//Verify reminder
+
+		//Dismiss Reminder
+
+		//Verify impression was added to Impressions page
+	}
 
 	@Test
 	public void EditImpression(){
+		String ImpressionName = "Test1";
+
 		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
 
 		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
 
 		//Tap impression
 

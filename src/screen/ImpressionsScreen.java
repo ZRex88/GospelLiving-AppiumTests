@@ -41,12 +41,17 @@ public class ImpressionsScreen extends AbstractScreen {
 		return CompleteTab.isDisplayed();
 	}
 
-	public boolean GivenImpressionExists(String text){
-		return driver.findElementByAccessibilityId(text).isDisplayed();
+	public boolean GivenImpressionExists(String impression){
+		return driver.findElementByAccessibilityId(impression).isDisplayed();
+	}
+
+	public void TapGivenImpression(String impression){
+		driver.findElementByAccessibilityId(impression).click();
 	}
 
 	public void TapCreateImpression(){
 		btnCreateImpression.click();
 	}
+
 
 }
