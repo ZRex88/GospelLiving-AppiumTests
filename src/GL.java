@@ -11,18 +11,25 @@ public class GL {
 		this.driver = driver;
 	}
 
+	//Navigation bar
 	public NavBar navBar() { return new NavBar(driver); }
 
+	//Home screen
 	public HomeScreen homeScreen() { return new HomeScreen(driver); }
 
+	//Goals screen
 	public GoalsScreen goalsScreen() { return new GoalsScreen(driver); }
 
+	//Impressions screens
 	public ImpressionsScreen impressionsScreen() { return new ImpressionsScreen(driver); }
 
 	public EditImpressionScreen editImpressionsScreen() { return new EditImpressionScreen(driver);}
 
+	//Settings screen
 	public SettingsScreen settingsScreen() { return new SettingsScreen(driver); }
 
+	//Other
+	public DeleteConfirmationScreen deleteConfirmationScreen() { return new DeleteConfirmationScreen((driver));}
 
 	/*
 	Appium will close if nothing happens in one minute. This will keep Appium

@@ -4,6 +4,7 @@ import com.gargoylesoftware.htmlunit.javascript.host.Touch;
 import io.appium.java_client.*;
 import org.openqa.selenium.*;
 import java.util.List;
+import java.util.NoSuchElementException;
 
 public class ImpressionsScreen extends AbstractScreen {
 
@@ -42,11 +43,22 @@ public class ImpressionsScreen extends AbstractScreen {
 	}
 
 	public boolean GivenImpressionExists(String impression){
-		return driver.findElementByAccessibilityId(impression).isDisplayed();
+		try{
+			return driver.findElementByAccessibilityId(impression).isDisplayed();
+		}
+		catch (Exception e){
+			return false;
+		}
 	}
 
 	public void TapGivenImpression(String impression){
 		driver.findElementByAccessibilityId(impression).click();
+	}
+
+	public void TapCompleteOnGivenImpression(String impression){
+		driver.findElementByAccessibilityId(impression)
+				.findElement(By.xpath("(//XCUIElementTypeButton[@name=\"Complete\"])[2]"))
+				.click();
 	}
 
 	public void TapCreateImpression(){

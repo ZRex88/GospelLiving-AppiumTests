@@ -31,6 +31,7 @@ public class ImpressionsTest extends AbstractTest {
 	}
 
 	//I don't think it's possible to automate this. I'll return to it later -ZCH
+	/*
 	@Test
 	public void AddImpressionWithReminder() throws InterruptedException{
 		String ImpressionName = "Test1";
@@ -60,6 +61,7 @@ public class ImpressionsTest extends AbstractTest {
 
 		//Verify impression was added to Impressions page
 	}
+	*/
 
 	@Test
 	public void EditImpression(){
@@ -75,66 +77,119 @@ public class ImpressionsTest extends AbstractTest {
 		app.editImpressionsScreen().ClickSave();
 
 		//Tap impression
+		app.impressionsScreen().TapGivenImpression(ImpressionName);
 
 		//Change impression text
+		ImpressionName += "x";
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
 
 		//Verify changes to impression were saved
-
+		Assert.assertTrue(app.impressionsScreen().GivenImpressionExists(ImpressionName));
 	}
 
 	@Test
-	public void DeleteImpression(){
+	public void DeleteImpression() throws InterruptedException{
+
+		String ImpressionName = "Test1";
+
 		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
 
 		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
 
 		//Tap impression
+		app.impressionsScreen().TapGivenImpression(ImpressionName);
 
 		//Tap delete button
+		app.editImpressionsScreen().ClickDelete();
+
+		//Tap confirm delete button
+		app.deleteConfirmationScreen().ClickConfirmDelete();
+
+		//Wait half a second for the view to change back to the impressions page
+		//Thread.sleep(500);
 
 		//Verify impression was removed from Impressions page
+		Assert.assertFalse(app.impressionsScreen().GivenImpressionExists(ImpressionName));
 	}
 
 	@Test
 	public void CompleteImpression(){
+		String ImpressionName = "Test1";
+
 		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
 
 		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
+
+		//Tap Impression to open edit impression menu
+		app.impressionsScreen().TapGivenImpression(ImpressionName);
 
 		//Tap complete button
+		app.editImpressionsScreen().ClickComplete();
+
+		//Tap Save
+		app.editImpressionsScreen().ClickSave();
 
 		//Verify impression was removed from Impressions page
+		Assert.assertFalse(app.impressionsScreen().GivenImpressionExists(ImpressionName));
 
 		//Tap Completed tab
+		app.impressionsScreen().SelectCompleteTab();
 
 		//Verify impression is displayed
+		Assert.assertTrue(app.impressionsScreen().GivenImpressionExists(ImpressionName));
 	}
 
 	@Test
 	public void AllImpressionTab(){
+		String CompleteImpression = "Test1";
+		String ImpressionName = "Test2";
+
 		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
 
 		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(CompleteImpression);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
+
+		//Tap Impression to open edit impression menu
+		app.impressionsScreen().TapGivenImpression(CompleteImpression);
 
 		//Tap complete button
+		app.editImpressionsScreen().ClickComplete();
+
+		//Tap Save
+		app.editImpressionsScreen().ClickSave();
 
 		//Tap Add Impression button
+		app.impressionsScreen().TapCreateImpression();
 
 		//Enter impression text
+		app.editImpressionsScreen().EnterImpressionText(ImpressionName);
 
 		//Tap save
+		app.editImpressionsScreen().ClickSave();
 
 		//Tap All tab
+		app.impressionsScreen().SelectAllTab();
 
 		//Verify all impressions are displayed
+		Assert.assertTrue(app.impressionsScreen().GivenImpressionExists(CompleteImpression));
+		Assert.assertTrue(app.impressionsScreen().GivenImpressionExists(ImpressionName));
 	}
 
 }
