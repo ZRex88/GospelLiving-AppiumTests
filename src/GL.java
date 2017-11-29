@@ -20,6 +20,8 @@ public class GL {
 	//Goals screen
 	public GoalsScreen goalsScreen() { return new GoalsScreen(driver); }
 
+	public EditGoalScreen editGoalScreen() { return new EditGoalScreen(driver); }
+
 	//Impressions screens
 	public ImpressionsScreen impressionsScreen() { return new ImpressionsScreen(driver); }
 

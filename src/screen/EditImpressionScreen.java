@@ -45,12 +45,6 @@ public class EditImpressionScreen extends AbstractScreen{
 		WebElement btnDelete = driver.findElementByAccessibilityId("Delete Impression");
 		btnDelete.click();
 	}
-
-
-
-
-
-
 	public void ClickSave(){
 		btnSave.click();
 	}
