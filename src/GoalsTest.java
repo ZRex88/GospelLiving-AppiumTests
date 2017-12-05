@@ -1,6 +1,7 @@
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
+import screen.GoalsScreen;
 
 public class GoalsTest extends AbstractTest {
 
@@ -67,16 +68,27 @@ public class GoalsTest extends AbstractTest {
 	}
 
 	@Test
-	public void AddGoalStep(){
+	public void AddGoalStep() throws InterruptedException{
 		String goalText = "Test1";
+		String stepText = "StepTest1";
 
 		//Tap add goal button
+		AddGoal(SPIRITUAL, goalText);
 
-		//Tap Intellectual button
+		//Tap Goal to open edit menu
+		app.goalsScreen().TapGivenGoal(goalText);
 
-		//Enter goal text
+		//Tap Add Step button
+		app.editGoalScreen().ClickAddStep();
 
-		//Tap save
+		//Enter step text
+		app.newStepScreen().EnterStepText(stepText);
+
+		//Tap back button
+		app.newStepScreen().ClickBackButton();
+
+		//Verify step appears
+
 	}
 
 	@Test
@@ -133,31 +145,46 @@ public class GoalsTest extends AbstractTest {
 		Assert.assertTrue(app.goalsScreen().GoalExists(goalText4));
 	}
 
-//	@Test
-//	public void CompleteGoal(){
-//		String goalText = "Test1";
-//
-//		//Tap add goal button
-//		app.goalsScreen().ClickAddGoal();
-//
-//		//Tap Intellectual button
-//		app.goalsScreen().ClickAddIntellectual();
-//
-//		//Enter goal text
-//		app.editGoalScreen().EnterGoalTitle(goalText);
-//
-//		//Tap save
-//		app.editGoalScreen().ClickSave();
+	@Test
+	public void CompleteGoal(){
+		String goalText = "Test1";
+
+		//Add a Spiritual goal
+		AddGoal(SPIRITUAL, goalText);
 
 		//Tap goal to open edit goal menu
+		app.goalsScreen().TapGivenGoal(goalText);
 
 		//Tap complete
+		app.editGoalScreen().ClickComplete();
 
 		//Tap confirm complete
+		app.completeConfirmationScreen().ClickConfirmComplete();
 
 		//Navigate to Home page
+		app.navBar().NavToHome();
 
 		//Verify Goal Completion card is displayed
-//	}
+		app.homeScreen().IsGivenCompletedGoalCardDisplayed(goalText);
+	}
 
+	@Test
+	public void DeleteGoal(){
+		String goalText = "Test1";
+
+		//Add a Spiritual goal
+		AddGoal(SPIRITUAL, goalText);
+
+		//Tap goal to open edit goal menu
+		app.goalsScreen().TapGivenGoal(goalText);
+
+		//Tap delete
+		app.editGoalScreen().ClickDelete();
+
+		//Tap confirm delete
+		app.deleteConfirmationScreen().ClickConfirmDeleteGoal();
+
+		//Verify goal no longer appears on goals page
+		Assert.assertFalse(app.goalsScreen().GoalExists(goalText));
+	}
 }

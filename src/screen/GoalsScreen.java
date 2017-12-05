@@ -14,11 +14,6 @@ public class GoalsScreen extends AbstractScreen {
 	private WebElement SocialTab = driver.findElementByAccessibilityId("Social");
 	private WebElement PhysicalTab = driver.findElementByAccessibilityId("Physical");
 	private WebElement IntellectualTab = driver.findElementByAccessibilityId("Intellectual");
-	private WebElement headerSpiritual = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"SPIRITUAL\"]"));
-	private WebElement headerSocial = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"SOCIAL\"]"));
-	private WebElement headerPhysical = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"PHYSICAL\"]"));
-	private WebElement headerIntellectual = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"INTELLECTUAL\"]"));
-	private WebElement btnAddGoal = driver.findElementByAccessibilityId("selectGoalEmphasis");
 
 	//Methods
 	public void SelectAllTab(){
@@ -42,18 +37,22 @@ public class GoalsScreen extends AbstractScreen {
 	}
 
 	public boolean SpiritualHeaderExists(){
+		WebElement headerSpiritual = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"SPIRITUAL\"]"));
 		return headerSpiritual.isDisplayed();
 	}
 
 	public boolean SocialHeaderExists(){
+		WebElement headerSocial = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"SOCIAL\"]"));
 		return headerSocial.isDisplayed();
 	}
 
 	public boolean PhysicalHeaderExists(){
+		WebElement headerPhysical = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"PHYSICAL\"]"));
 		return headerPhysical.isDisplayed();
 	}
 
 	public boolean IntellectualHeaderExists(){
+		WebElement headerIntellectual = driver.findElement(By.xpath("//XCUIElementTypeOther[@name=\"INTELLECTUAL\"]"));
 		return headerIntellectual.isDisplayed();
 	}
 
@@ -64,34 +63,17 @@ public class GoalsScreen extends AbstractScreen {
 		catch(Exception e){
 			return false;
 		}
+	}
 
+	public void TapGivenGoal(String goalText){
+		driver.findElementByAccessibilityId(goalText).click();
 	}
 
 	public void ClickAddGivenGoal(String goalType){
+		WebElement btnAddGoal = driver.findElementByAccessibilityId("selectGoalEmphasis");
 		btnAddGoal.click();
 		driver.findElementByAccessibilityId(goalType).click();
 	}
-//
-//
-//	public void ClickAddSpiritual(){
-//		WebElement btnSpiritual =
-//		btnSpiritual.click();
-//	}
-//
-//	public void ClickAddSocial(){
-//		WebElement btnSocial = driver.findElementByAccessibilityId("social");
-//		btnSocial.click();
-//	}
-//
-//	public void ClickAddPhysical(){
-//		WebElement btnPhysical = driver.findElementByAccessibilityId("physical");
-//		btnPhysical.click();
-//	}
-//
-//	public void ClickAddIntellectual(){
-//		WebElement btnIntellectual = driver.findElementByAccessibilityId("intellectual");
-//		btnIntellectual.click();
-//	}
 
 	public void ClickCancelAddGoal(){
 		WebElement btnCancelAddGoal = driver.findElementByAccessibilityId("closeEmphasisSelector");

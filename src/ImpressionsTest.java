@@ -111,10 +111,7 @@ public class ImpressionsTest extends AbstractTest {
 		app.editImpressionsScreen().ClickDelete();
 
 		//Tap confirm delete button
-		app.deleteConfirmationScreen().ClickConfirmDelete();
-
-		//Wait half a second for the view to change back to the impressions page
-		//Thread.sleep(500);
+		app.deleteConfirmationScreen().ClickConfirmDeleteImpression();
 
 		//Verify impression was removed from Impressions page
 		Assert.assertFalse(app.impressionsScreen().GivenImpressionExists(ImpressionName));

@@ -22,6 +22,8 @@ public class GL {
 
 	public EditGoalScreen editGoalScreen() { return new EditGoalScreen(driver); }
 
+	public NewStepScreen newStepScreen() { return new NewStepScreen(driver); }
+
 	//Impressions screens
 	public ImpressionsScreen impressionsScreen() { return new ImpressionsScreen(driver); }
 
@@ -32,6 +34,8 @@ public class GL {
 
 	//Other
 	public DeleteConfirmationScreen deleteConfirmationScreen() { return new DeleteConfirmationScreen((driver));}
+
+	public CompleteConfirmationScreen completeConfirmationScreen() { return new CompleteConfirmationScreen(driver);}
 
 	/*
 	Appium will close if nothing happens in one minute. This will keep Appium

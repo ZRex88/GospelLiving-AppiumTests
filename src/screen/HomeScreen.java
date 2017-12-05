@@ -23,4 +23,8 @@ public class HomeScreen extends AbstractScreen {
 		return driver.findElementByAccessibilityId(goal + " - 0 goals").isDisplayed();
 	}
 
+	public boolean IsGivenCompletedGoalCardDisplayed(String goalText){
+		return driver.findElementByAccessibilityId(goalText).isDisplayed();
+	}
+
 }

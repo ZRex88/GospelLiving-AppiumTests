@@ -5,15 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7ebf2ff8-3b99-49b3-9e5e-f7a8fd25fc6d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GoalsTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screen/EditGoalScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screen/CompleteConfirmationScreen.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/screen/NewStepScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GL.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GL.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditImpressionScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditImpressionScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GoalsTest.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/GoalsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/ImpressionsTest.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/ImpressionsTest.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/DeleteConfirmationScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/DeleteConfirmationScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditGoalScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/EditGoalScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/GoalsScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/GoalsScreen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/HomeScreen.class" afterPath="$PROJECT_DIR$/out/production/GospelLiving-AppiumTests/screen/HomeScreen.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GL.java" afterPath="$PROJECT_DIR$/src/GL.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" afterPath="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GoalsTest.java" afterPath="$PROJECT_DIR$/src/GoalsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ImpressionsTest.java" afterPath="$PROJECT_DIR$/src/ImpressionsTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java" afterPath="$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/EditGoalScreen.java" afterPath="$PROJECT_DIR$/src/screen/EditGoalScreen.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/GoalsScreen.java" afterPath="$PROJECT_DIR$/src/screen/GoalsScreen.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/screen/HomeScreen.java" afterPath="$PROJECT_DIR$/src/screen/HomeScreen.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,42 +35,44 @@
     <splitter split-orientation="horizontal" split-proportion="0.46409807">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="GoalsScreen.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="GoalsScreen.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/screen/GoalsScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="218">
-                  <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+                <state relative-caret-position="825">
+                  <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
                   <folding>
-                    <element signature="e#1253#1254#0" expanded="true" />
-                    <element signature="e#1274#1275#0" expanded="true" />
-                    <element signature="e#1310#1311#0" expanded="true" />
-                    <element signature="e#1337#1338#0" expanded="true" />
-                    <element signature="e#1370#1371#0" expanded="true" />
-                    <element signature="e#1394#1395#0" expanded="true" />
-                    <element signature="e#1429#1430#0" expanded="true" />
-                    <element signature="e#1455#1456#0" expanded="true" />
-                    <element signature="e#1494#1495#0" expanded="true" />
-                    <element signature="e#1524#1525#0" expanded="true" />
-                    <element signature="e#1566#1567#0" expanded="true" />
-                    <element signature="e#1609#1610#0" expanded="true" />
-                    <element signature="e#1648#1649#0" expanded="true" />
-                    <element signature="e#1688#1689#0" expanded="true" />
-                    <element signature="e#1729#1730#0" expanded="true" />
-                    <element signature="e#1771#1772#0" expanded="true" />
-                    <element signature="e#1816#1817#0" expanded="true" />
-                    <element signature="e#1862#1863#0" expanded="true" />
+                    <element signature="e#1961#1962#0" expanded="true" />
+                    <element signature="e#2021#2022#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="EditGoalScreen.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="EditGoalScreen.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/screen/EditGoalScreen.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="165">
-                  <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+                <state relative-caret-position="415">
+                  <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1397#1398#0" expanded="true" />
+                    <element signature="e#1422#1423#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="NewStepScreen.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/screen/NewStepScreen.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="360">
+                  <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#836#837#0" expanded="true" />
+                    <element signature="e#858#859#0" expanded="true" />
+                    <element signature="e#900#901#0" expanded="true" />
+                    <element signature="e#935#936#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -75,8 +85,8 @@
           <file leaf-file-name="GoalsTest.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/GoalsTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="443">
-                  <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+                <state relative-caret-position="270">
+                  <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -87,8 +97,8 @@
           <file leaf-file-name="GL.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/GL.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="96">
-                  <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+                <state relative-caret-position="300">
+                  <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -144,23 +154,25 @@
         <option value="$PROJECT_DIR$/src/utility/ImpressionsTest.java" />
         <option value="$PROJECT_DIR$/src/NavBarTest.java" />
         <option value="$PROJECT_DIR$/src/utility/AppiumDriverBuilder.java" />
-        <option value="$PROJECT_DIR$/src/screen/HomeScreen.java" />
-        <option value="$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java" />
         <option value="$PROJECT_DIR$/src/screen/ImpressionsScreen.java" />
-        <option value="$PROJECT_DIR$/src/ImpressionsTest.java" />
         <option value="$PROJECT_DIR$/src/screen/EditImpressionScreen.java" />
-        <option value="$PROJECT_DIR$/src/screen/EditGoalScreen.java" />
-        <option value="$PROJECT_DIR$/src/GL.java" />
-        <option value="$PROJECT_DIR$/src/GoalsTest.java" />
         <option value="$PROJECT_DIR$/src/screen/GoalsScreen.java" />
+        <option value="$PROJECT_DIR$/src/screen/HomeScreen.java" />
+        <option value="$PROJECT_DIR$/src/screen/CompleteConfirmationScreen.java" />
+        <option value="$PROJECT_DIR$/src/ImpressionsTest.java" />
+        <option value="$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java" />
+        <option value="$PROJECT_DIR$/src/GL.java" />
+        <option value="$PROJECT_DIR$/src/screen/NewStepScreen.java" />
+        <option value="$PROJECT_DIR$/src/screen/EditGoalScreen.java" />
+        <option value="$PROJECT_DIR$/src/GoalsTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="14" />
-    <option name="y" value="29" />
-    <option name="width" value="1528" />
-    <option name="height" value="836" />
+    <option name="x" value="1706" />
+    <option name="y" value="30" />
+    <option name="width" value="1843" />
+    <option name="height" value="1029" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -180,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -208,10 +221,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -232,7 +244,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.GoalsTest.GoalTabsDisplayCorrectGoals">
+  <component name="RunManager" selected="JUnit.GoalsTest.AddGoalStep">
     <configuration name="GoalsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GospelLiving-AppiumTests" />
@@ -253,14 +265,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoalsTest.AddIntellectualGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoalsTest.AddGoalStep" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GospelLiving-AppiumTests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GoalsTest" />
-      <option name="METHOD_NAME" value="AddIntellectualGoal" />
+      <option name="METHOD_NAME" value="AddGoalStep" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -273,14 +285,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoalsTest.AddPhysicalGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoalsTest.CompleteGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GospelLiving-AppiumTests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GoalsTest" />
-      <option name="METHOD_NAME" value="AddPhysicalGoal" />
+      <option name="METHOD_NAME" value="CompleteGoal" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -293,14 +305,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="GoalsTest.AddSocialGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GoalsTest.DeleteGoal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="GospelLiving-AppiumTests" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="GoalsTest" />
-      <option name="METHOD_NAME" value="AddSocialGoal" />
+      <option name="METHOD_NAME" value="DeleteGoal" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -415,19 +427,19 @@
       <listeners />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddSocialGoal" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddPhysicalGoal" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddIntellectualGoal" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.GoalsTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.GoalsTest.GoalTabsDisplayCorrectGoals" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GoalsTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.GoalsTest.GoalTabsDisplayCorrectGoals" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.GoalsTest.CompleteGoal" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.GoalsTest.DeleteGoal" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddGoalStep" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.GoalsTest.GoalTabsDisplayCorrectGoals" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.GoalsTest" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddIntellectualGoal" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddPhysicalGoal" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddSocialGoal" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.GoalsTest.AddGoalStep" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.GoalsTest.DeleteGoal" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.GoalsTest.CompleteGoal" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.GoalsTest.GoalTabsDisplayCorrectGoals" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GoalsTest" />
       </list>
     </recent_temporary>
   </component>
@@ -445,65 +457,65 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="GoalsTest - 2017.11.29 at 09h 13m 26s.xml">
-      <configuration name="GoalsTest" configurationId="JUnit" />
+    <history-entry file="GoalsTest_AddGoalStep - 2017.12.04 at 14h 49m 06s.xml">
+      <configuration name="GoalsTest.AddGoalStep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 12h 47m 09s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_AddGoalStep - 2017.12.04 at 14h 51m 14s.xml">
+      <configuration name="GoalsTest.AddGoalStep" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 12h 48m 50s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 11h 57m 59s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 04m 51s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 12h 00m 19s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 09m 56s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 16m 33s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 23m 09s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 18m 55s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 28m 51s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 20m 48s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 41m 12s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 22m 56s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 13h 47m 38s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 25m 10s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="GoalsTest_GoalTabsDisplayCorrectGoals - 2017.11.29 at 14h 29m 21s.xml">
-      <configuration name="GoalsTest.GoalTabsDisplayCorrectGoals" configurationId="JUnit" />
+    <history-entry file="GoalsTest_DeleteGoal - 2017.12.04 at 13h 27m 37s.xml">
+      <configuration name="GoalsTest.DeleteGoal" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="835" extended-state="6" />
+    <frame x="1680" y="22" width="1920" height="1058" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.4828326" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3362256" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32614556" sideWeight="0.5171674" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29637307" sideWeight="0.55910546" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.4978701" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19407009" sideWeight="0.44992846" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21036269" sideWeight="0.44089457" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18311875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09797657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38544473" sideWeight="0.5473908" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29637307" sideWeight="0.5548456" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3253886" sideWeight="0.48083067" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -518,15 +530,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/GoalsTest.java</url>
-          <line>107</line>
-          <properties />
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="37" />
+      <option name="time" value="44" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -536,61 +540,8 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/EditGoalScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="26" column="24" lean-forward="true" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/GoalsScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -601,6 +552,8 @@
           <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,24 +643,8 @@
         <state relative-caret-position="225">
           <caret line="18" column="45" lean-forward="false" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -739,24 +676,8 @@
         <state relative-caret-position="225">
           <caret line="18" column="45" lean-forward="true" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
           <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -840,13 +761,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/NavBar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screen/SettingsScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -859,13 +773,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/HomeScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -897,31 +804,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../java-client-master/src/main/java/io/appium/java_client/pagefactory/AppiumFieldDecorator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/AbstractScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ImpressionsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2835">
-          <caret line="191" column="86" lean-forward="false" selection-start-line="191" selection-start-column="86" selection-end-line="191" selection-end-column="86" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/screen/EditImpressionScreen.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -939,13 +821,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/AbstractTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
@@ -956,47 +831,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/screen/EditGoalScreen.java">
+    <entry file="file://$PROJECT_DIR$/../../java-client-master/src/main/java/io/appium/java_client/pagefactory/TimeOutDuration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="270">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GL.java">
+    <entry file="file://$PROJECT_DIR$/../../java-client-master/src/main/java/io/appium/java_client/pagefactory/AppiumFieldDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="20" column="38" lean-forward="false" selection-start-line="20" selection-start-column="38" selection-end-line="20" selection-end-column="38" />
+        <state relative-caret-position="198">
+          <caret line="146" column="0" lean-forward="false" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/AbstractScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/screen/GoalsScreen.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="64" column="25" lean-forward="false" selection-start-line="64" selection-start-column="25" selection-end-line="64" selection-end-column="25" />
+        <state relative-caret-position="825">
+          <caret line="68" column="62" lean-forward="false" selection-start-line="68" selection-start-column="62" selection-end-line="68" selection-end-column="62" />
           <folding>
-            <element signature="e#1253#1254#0" expanded="true" />
-            <element signature="e#1274#1275#0" expanded="true" />
-            <element signature="e#1310#1311#0" expanded="true" />
-            <element signature="e#1337#1338#0" expanded="true" />
-            <element signature="e#1370#1371#0" expanded="true" />
-            <element signature="e#1394#1395#0" expanded="true" />
-            <element signature="e#1429#1430#0" expanded="true" />
-            <element signature="e#1455#1456#0" expanded="true" />
-            <element signature="e#1494#1495#0" expanded="true" />
-            <element signature="e#1524#1525#0" expanded="true" />
-            <element signature="e#1566#1567#0" expanded="true" />
-            <element signature="e#1609#1610#0" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1688#1689#0" expanded="true" />
-            <element signature="e#1729#1730#0" expanded="true" />
-            <element signature="e#1771#1772#0" expanded="true" />
-            <element signature="e#1816#1817#0" expanded="true" />
-            <element signature="e#1862#1863#0" expanded="true" />
+            <element signature="e#1961#1962#0" expanded="true" />
+            <element signature="e#2021#2022#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/HomeScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/CompleteConfirmationScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1005,17 +886,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/DeleteConfirmationScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="314" lean-forward="true" selection-start-line="20" selection-start-column="314" selection-end-line="20" selection-end-column="314" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ImpressionsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="113" column="70" lean-forward="false" selection-start-line="113" selection-start-column="70" selection-end-line="113" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/NavBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/NewStepScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#836#837#0" expanded="true" />
+            <element signature="e#858#859#0" expanded="true" />
+            <element signature="e#900#901#0" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/screen/EditGoalScreen.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="44" column="30" lean-forward="false" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1397#1398#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GoalsTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="90" column="0" lean-forward="false" selection-start-line="90" selection-start-column="0" selection-end-line="90" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
