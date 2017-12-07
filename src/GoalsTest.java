@@ -88,7 +88,7 @@ public class GoalsTest extends AbstractTest {
 		app.newStepScreen().ClickBackButton();
 
 		//Verify step appears
-
+		Assert.assertTrue(app.editGoalScreen().IsFirstStepDisplayed());
 	}
 
 	@Test

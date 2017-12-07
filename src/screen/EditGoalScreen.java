@@ -42,6 +42,13 @@ public class EditGoalScreen extends AbstractScreen {
 		inputGoalBecomeLikeSavior.sendKeys(text);
 	}
 
+	/*
+	*Currently there's no one to dynamically grab the number of steps so I have to hard code the XPath for each step.
+	*/
+	public boolean IsFirstStepDisplayed(){
+		return driver.findElement(By.xpath("//XCUIElementTypeApplication[@name=\"Living\"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTable/XCUIElementTypeCell[4]")).isDisplayed();
+	}
+
 	public void ClickAddStep(){
 		btnAddStep.click();
 	}
